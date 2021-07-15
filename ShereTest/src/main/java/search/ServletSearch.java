@@ -171,6 +171,7 @@ public class ServletSearch extends HttpServlet {
 			out.println("</body>");
 			out.println("</html>");
 
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			out.println(e);
